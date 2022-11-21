@@ -24,7 +24,7 @@ const client = new Client({
 const channelId = "1041628176637493282";
 
 client.on("voiceStateUpdate", (oldMember, newMember) => {
-  const resource = createAudioResource("./tu-tu-ru.opus", {
+  const resource = createAudioResource("./tu-tu-ru_new.opus", {
     inlineVolume: true,
   });
   const player = createAudioPlayer();
@@ -51,5 +51,9 @@ client.on("voiceStateUpdate", (oldMember, newMember) => {
     }
   }, 300);
 });
+
+client.on("guildMemberAdd", member =>{
+   member.guild.channels.get('channelID').reply("MEM_JOIN_MESSAGE"); 
+})
 
 client.login(config.BOT_TOKEN);

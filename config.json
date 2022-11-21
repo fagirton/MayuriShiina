@@ -1,3 +1,5 @@
 {
-    "BOT_TOKEN": "MTA0MjQ4NTE1ODcwNTYzOTQ3NA.GIdfPt.yGw36NS4dZaYJbYapSBNbbPWCmDc8mfzU18y04"
+    "BOT_TOKEN": "MTA0MjQ4NTE1ODcwNTYzOTQ3NA.GIdfPt.yGw36NS4dZaYJbYapSBNbbPWCmDc8mfzU18y04",
+
+    "MEM_JOIN_MESSAGE": "Ту-ту-ру!\", member.user.username, \"уже здесь! :tuturu:"
 }
